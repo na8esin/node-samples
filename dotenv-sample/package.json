@@ -1,0 +1,12 @@
+{
+  "name": "dotenv-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
