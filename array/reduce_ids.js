@@ -1,17 +1,11 @@
 const util = require('util')
 
-obj = [
-  {
-    id: 1,
-    name:"john"
-  },
-  {
-    id: 2,
-    name:"paul"
-  },
-  {
-    id: 3,
-    name:"achapa"
+objs = [  {
+    id: 1,    name:"john"
+  },  {
+    id: 2,    name:"paul"
+  },  {
+    id: 3,    name:"achapa"
   },
 ];
 
@@ -25,8 +19,13 @@ const userIds = (objs, key) => {
 };
 
 console.log(util.inspect(
-  userIds(obj, 'id'),
+  userIds(objs, 'id'),
   { depth: null }));
+
+const mapped = objs.map(o => o.id);
+console.log(util.inspect(
+  mapped, { depth: null }));
+
 
 /* 出力結果
 
