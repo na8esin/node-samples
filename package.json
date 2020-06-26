@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "lodash": "^4.17.15"
+    "express-winston": "^4.0.3",
+    "lodash": "^4.17.15",
+    "winston": "^3.3.3"
   },
   "name": "node-samples",
   "version": "1.0.0",
